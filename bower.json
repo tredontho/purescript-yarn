@@ -1,25 +1,30 @@
 {
-  "name": "purescript-yarn",
-  "version": "4.0.0",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/thimoteus/purescript-yarn.git"
-  },
-  "license": "MIT",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "output"
-  ],
-  "dependencies": {
-    "purescript-strings": "^4.0.0",
-    "purescript-arrays": "^5.0.0",
-    "purescript-generics-rep": "^6.0.0",
-    "purescript-partial": "^2.0.0",
-    "purescript-unicode": "^4.0.1"
-  },
-  "devDependencies": {
-    "purescript-psci-support": "^4.0.0"
-  }
+    "name": "purescript-yarn",
+    "version": "5.0.0",
+    "license": [
+        "MIT"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/tredontho/purescript-yarn"
+    },
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "output"
+    ],
+    "dependencies": {
+        "purescript-arrays": "^v7.1.0",
+        "purescript-console": "^v6.0.0",
+        "purescript-effect": "^v4.0.0",
+        "purescript-foldable-traversable": "^v6.0.0",
+        "purescript-maybe": "^v6.0.0",
+        "purescript-partial": "^v4.0.0",
+        "purescript-prelude": "^v6.0.1",
+        "purescript-strings": "^v6.0.1",
+        "purescript-tuples": "^v7.0.0",
+        "purescript-unfoldable": "^v6.0.0",
+        "purescript-unicode": "^v6.0.0"
+    }
 }
